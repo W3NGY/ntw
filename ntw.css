@@ -1,0 +1,46 @@
+*{
+    background-image: url(bg3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@keyframes header {
+    from{font-size: 5em;}
+    to{font-size: 6em;}
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    color:#1c5ed8;
+    text-shadow: black 0 5px;
+    transition: ease-out;
+}
+
+#happy:hover, #birthday:hover{
+    animation: header 2s ease-out forwards;
+    cursor:pointer;
+}
+
+#song{
+    margin-left:50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: blue 0 0 10px;
+    font-family: 'robot', sans-serif;
+}
+
+.foot p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+}
